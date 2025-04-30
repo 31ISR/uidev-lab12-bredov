@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Функциональная форма</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="registration.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body class="container">
+        <div>
+            <header>Student Login</header>
+            <h2>
+                Access your student account
+            </h2>
+            <main>
+                <section>
+                    <article>
+                        <form action="/api/login" method="post">
+                            <div class="ema">
+                                <label for="Name">Full Name</label>
+                                <input type="Name" id="Name" name="Name" placeholder="Enter your Full Name">
+                            </div>
+
+                            <div class="ema">
+                                <label for="Email">Email address</label>
+                                <input type="Email" id="Email" name="Email" placeholder="Enter your Email">
+                            </div>
+                            <div class="ema">
+                                <label for="Student ID">Student ID</label>
+                                <input type="Student ID" id="Student ID" name="Student ID" placeholder="Enter your Student ID">
+                            </div>
+                            <div class="ema">
+                                <label for="select">Select Program</label>
+                                <select id="select" name="program">
+                                    <option value="var1">Choose yor program</option>
+                                    <option value="var2">Computer Science</option>
+                                    <option value="var3">Engeneering</option>
+                                    <option value="var4">Business</option>
+                                    <option value="var5">Arts & Humanities</option>
+                                    <option value="var6">Science</option>
+                                </select>
+                            </div>
+                            <div class="ema">
+                                <label for="Password">Password</label>
+                                <input type="Password" id="Password" name="Password" placeholder="Create a Password">
+                            </div>
+                            <div class="ema">
+                                <label for="Password">Confirm Password</label>
+                                <input type="Password" id="Password" name="Password" placeholder="Confirm your Password">
+                            </div>
+
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember" name="remember" class="da">
+                                <label for="remember" class="ne">I agree to the Terms of Service and Privacy palicy</label>
+                            </div>
+                            <button type="submit">Create Account</button>
+                            
+                        </form>
+                    <p class="center">Already have an account?<a href="index.html" class="f1">Log in</a></p> 
+                </section>
+            </main>
+        </div>
+    </body>

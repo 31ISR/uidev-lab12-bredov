@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Функциональная форма</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body class="container">
+        <div>
+            <header>Student Login</header>
+            <h2>
+                Access your student account
+            </h2>
+            <main>
+                <section>
+                    <article>
+                        <form action="/api/login" method="post">
+
+                            <div class="ema">
+                                <label for="Email">Email or student ID</label>
+                                <input type="Email" id="Email" name="email" placeholder="Enter your email or student ID">
+                            </div>
+
+                            <div class="ema">
+                                <label for="password">Password</label>
+                                <input type="pasword" id="password" name="password" placeholder="Enter your password">
+                            </div>
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember" name="remember" class="da">
+                                <label for="remember" class="ne">Remember me</label>
+                                <a href="" class="f2">Forgot password?</a>
+                                
+                            </div>
+                            <button type="submit">Log in</button>
+                            
+                        </form>
+                    <div class="qq">
+                        <span class="line"></span>
+                        <span>OR</span>
+                        <span class="line"></span>
+                    </div>
+                    </article>
+                    <div class="center">
+                        <div class="ph"><img src="pub/google.png" alt="Google"/></div>
+                        <div class="ph"><img src="pub/ms.png"></div>
+                        <div class="ph"><img src="pub/apple.png"></div>
+                    
+                    </div>
+                
+                    <p class="center1">Don't have an account? <a href="registration.html" class="f1">Register</a></p> 
+                    
+                
+
+                </section>
+            </main>
+        </div>
+    </body>
